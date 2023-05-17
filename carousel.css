@@ -81,7 +81,18 @@ body {
     margin-top: 7rem;
     align-items: center;
     }
+
+    .footer{
+
+      background-color: gray
+    }
+
+
 }
+
+
+
+
    
 
   
@@ -126,3 +137,20 @@ body {
   border-radius: 50%;
 }
 
+
+
+
+footer{
+
+  align-items: center;
+  padding: 2%;
+  height: 100px;
+  background-color: #212529;
+}
+
+footer02
+
+.navbar-brand{
+
+  float: left;
+}
