@@ -24,12 +24,10 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 22rem;
 }
 
-#navbarCollapse ul li a:first-child{
-  float: right;
-}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -79,28 +77,52 @@ body {
 }
 
 @media (min-width: 62em) {
+  .h5 {
+    margin-top: 7rem;
+    align-items: center;
+    }
+}
+   
+
+  
+
+
+
+@media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  
   }
-}
-
 
 
   .FLEX{
 
-    width: 30%;
-    height: 20px;
+    width: 50%;
+    height: 350px;
     border: none;
     padding: 2%;
-    text-align: center;
-        
+    text-align: left;
+    vertical-align: middle;
+   
+    
 
-}
+  
+  }
+
+
 
 .BOX-FLEXMODEL{
   display: flex;
   justify-content: space-between;
   text-align: left;
   width: 100%;
+  vertical-align: middle;
+ 
+  
 
 }
+
+.round-circle {
+  border-radius: 50%;
+}
+
