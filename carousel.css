@@ -2,19 +2,19 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: rgb(var(--bs-tertiary-color-rgb));
-}
 
+
+body {
+  background-color: rgb(190, 226, 247);
+  width: 100%;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 9rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -24,7 +24,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 22rem;
+  height: 32rem;
 }
 
 
@@ -82,11 +82,6 @@ body {
     align-items: center;
     }
 
-    .footer{
-
-      background-color: gray
-    }
-
 
 }
 
@@ -139,18 +134,89 @@ body {
 
 
 
-
 footer{
 
   align-items: center;
-  padding: 2%;
-  height: 90px;
-  background-color: #212529;
+  padding: 1%;
+  height: 50%;
+  background-color: rgb(16, 83, 177);
+  text-align: justify;
+  color: white;
 }
 
-footer02
 
-.navbar-brand{
+nav{
 
-  float: left;
+    background-color: rgb(16, 83, 177);
+    position: fixed;
+    width: 100%;
+    z-index: 999; /* Para garantir que o menu fique acima de outros elementos */
 }
+
+
+
+#menu-h{
+
+    list-style: none;
+    padding: 2%;
+    background-color: rgb(16, 83, 177);
+    top:0%
+       
+
+}
+
+#menu-h ul li {
+
+    display: inline;
+    
+}
+
+#menu-h ul li a{
+
+    color:white;
+    padding: 16px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.4s;
+    font-weight: 700;
+
+    
+}
+
+#menu-h ul li a:hover{
+
+background-color: white;
+color: black;
+
+}
+
+#menu-h ul li a:first-child{
+  float: right;
+}
+
+
+#menu-h{
+
+    list-style: none;
+    padding: 0;
+    background-color: rgb(16, 83, 177);
+    position: fixed
+    
+}
+
+button{
+
+  background-color: rgb(16, 83, 177);
+  color: white;
+}
+
+
+#CC:hover {
+  /* Estilos para o efeito hover */
+  background-color: white;
+  color: black
+}
+
+
+
+
