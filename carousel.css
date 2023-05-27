@@ -106,7 +106,7 @@ body {
     width: 50%;
     height: 350px;
     border: none;
-    padding: 2%;
+    padding: 4%;
     text-align: left;
     vertical-align: middle;
    
@@ -122,11 +122,13 @@ body {
   justify-content: space-between;
   text-align: left;
   width: 100%;
+  margin: 2%;
   vertical-align: middle;
  
   
 
 }
+
 
 .round-circle {
   border-radius: 50%;
@@ -142,6 +144,7 @@ footer{
   background-color: rgb(16, 83, 177);
   text-align: justify;
   color: white;
+  width: 102%;
 }
 
 
@@ -158,7 +161,8 @@ nav{
 #menu-h{
 
     list-style: none;
-    padding: 2%;
+    padding: 1%;
+    width: 100%;
     background-color: rgb(16, 83, 177);
     top:0%
        
@@ -208,15 +212,21 @@ button{
 
   background-color: rgb(16, 83, 177);
   color: white;
+ 
 }
 
 
-#CC:hover {
+#clique:hover {
   /* Estilos para o efeito hover */
   background-color: white;
   color: black
 }
 
 
+.box-block{
+
+  padding: 6%;
+  border-top: solid 1px blue;
 
 
+}
