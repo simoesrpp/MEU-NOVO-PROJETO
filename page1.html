@@ -25,7 +25,7 @@
     </head>
     
       
-      
+     <head>
 
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,11 +38,8 @@
         user-select: none;
       }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+     
+     
 
       .b-example-divider {
         width: 100%;
@@ -59,48 +56,77 @@
         height: 100vh;
       }
 
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
+
+  
+    .header {
+      background-color: #f2f2f2;
+      padding: 10px;
+      
+    }
+
+    /* Estilos para o título do cabeçalho */
+    h1 {
+      margin: 0;
+      
+    }
+
+    /* Estilos para a navegação do cabeçalho */
+    nav {
+      margin-top: 0px;
+      
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 1PX;
+      display: flex;
+      justify-content: flex-end;
+      
+    }
+
+    nav ul li {
+      margin-right: 10px;
+    }
+
+    /* Estilos para dispositivos com largura menor que 600 pixels */
+    @media (max-width: 1200px) {
+      header {
+        padding: 1px;
+                
+       
       }
 
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
+      h1 {
+        font-size: 27px;
+        color: white;
       }
 
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
+      nav {
+        margin-top: 0px;
       }
 
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+      nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         background-color: rgb(16, 83, 177);
+         margin-top: 0px;
+        
+              
+         
+      }
 
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
+      nav ul li {
+        margin-right: 0;
+        margin-bottom: 5px;
+        
+        
       }
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
+    }
+  </style>
+  </head>
+          
     </style>
 
     
@@ -109,20 +135,25 @@
   
 
   <body>
+
+    
+    
                 
   <nav id="menu-h">
     
     <ul>
   
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="page2.html">About</a></li>
-      <li><a href="page1.html">Home</a></li>
       
-    </ul>
+      <li><a href="page1.html">Home</a></li>
+      <li><a href="page2.html">About</a></li>
+      <li><a href="page3.html">Contact</a></li>
+      
+      
+      
+        </ul>
     
   </nav>
-
+  
    
 <main>
 
@@ -154,7 +185,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Teste11.jpg" width="100%" height="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img src="Teste11.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>One more for good measure.</h1>
@@ -182,35 +213,35 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <div class="row" id="CIR2">
       <div class="col-lg-4">
         
-        <img src="teste4.jpg" class="round-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img src="teste4.jpg" class="round-circle" ID="CIR" width="160" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <h2 class="fw-normal">Heading</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img src="teste5.jpg" class="round-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img src="teste5.jpg" class="round-circle" ID="CIR" width="160" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <h2 class="fw-normal">Heading</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img src="teste6.jpg" class="round-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img src="teste6.jpg" class="round-circle" ID="CIR" width="160" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <h2 class="fw-normal">Heading</h2>
         <p>And lastly this, the third column of representative placeholder content. This time, we've moved on to the third column</p>
         
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
-    <br><br><br>
+   
 
     <!-- START THE FEATURETTES -->
   <DIV class="BOX-FLEXMODEL">
     <div class="FLEX">
     <div class="card" style="width: 17rem;">
-      <img src="teste12.jpg" class="card-img-top">
+      <img src="teste8.jpg" class="card-img-top">
       
     </div>
     </div>

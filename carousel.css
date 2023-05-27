@@ -74,7 +74,9 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-}
+
+ 
+ }
 
 @media (min-width: 62em) {
   .h5 {
@@ -82,8 +84,9 @@ body {
     align-items: center;
     }
 
-
 }
+
+
 
 
 
@@ -122,7 +125,7 @@ body {
   justify-content: space-between;
   text-align: left;
   width: 100%;
-  margin: 2%;
+  margin: 1%;
   vertical-align: middle;
  
   
@@ -164,8 +167,8 @@ nav{
     padding: 1%;
     width: 100%;
     background-color: rgb(16, 83, 177);
-    top:0%
-       
+  top:0%;
+         
 
 }
 
@@ -204,7 +207,8 @@ color: black;
     list-style: none;
     padding: 0;
     background-color: rgb(16, 83, 177);
-    position: fixed
+    position: fixed;
+    margin-top: 0px;
     
 }
 
@@ -226,7 +230,61 @@ button{
 .box-block{
 
   padding: 6%;
-  border-top: solid 1px blue;
+  border-top: solid 1px rgb(16, 83, 177);
 
 
 }
+
+#CIR{
+
+ border: solid 5px rgb(16, 83, 177);
+
+}
+
+#CIR2{
+
+  padding: 3%;
+}
+
+.form-floating{
+
+  height: 100px;
+  width: 80%;
+  align-items: center;
+  align-content: center;
+  
+  
+
+}
+
+#floatingInput{
+
+ margin: 0%;
+ padding: 5%;
+ height: 2%;
+ width: 60%;
+ text-align: left;
+ 
+
+}
+
+#floatingInput2{
+
+ margin: 0%;
+ padding: 5%;
+ height: 190%;
+ width: 60%;
+ text-align: left;
+
+}
+
+#END{
+
+ border: solid 5px rgb(16, 83, 177);
+ padding: 1px;
+ margin-top: 8%;
+
+}
+
+
+
