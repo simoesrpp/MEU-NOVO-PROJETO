@@ -278,13 +278,18 @@ button{
 
 }
 
-#END{
 
- border: solid 5px rgb(16, 83, 177);
- padding: 1px;
- margin-top: 8%;
+.FIM {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+
+ #END{
+  border: solid 5px rgb(16, 83, 177);
+ padding: 0px;
+ margin-top: 5%;
+ align-content: center;
 
 }
-
-
-
+    }
