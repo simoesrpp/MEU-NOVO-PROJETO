@@ -292,4 +292,10 @@ button{
  align-content: center;
 
 }
-    }
+    
+#DDA {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
